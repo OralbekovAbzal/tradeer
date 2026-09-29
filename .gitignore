@@ -1,0 +1,46 @@
+# Secrets — NEVER commit
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+keyring/
+
+# Local data — sensitive portfolio/trade history
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+data/*.db
+*.csv
+!sample_data/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Generated reports (may contain portfolio details)
+reports/
+
+# Local Claude app config
+.claude/

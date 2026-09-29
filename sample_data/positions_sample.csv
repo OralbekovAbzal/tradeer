@@ -1,0 +1,6 @@
+ticker,qty,avg_price,sector
+AAPL,20,165.50,Technology
+MSFT,10,390.00,Technology
+NVDA,8,720.00,Technology
+JNJ,15,152.00,Healthcare
+XOM,25,108.00,Energy

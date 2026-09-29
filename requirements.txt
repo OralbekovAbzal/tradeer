@@ -1,0 +1,20 @@
+# Phase 0 + Phase 1 MVP dependencies
+pydantic>=2.6
+pydantic-settings>=2.2
+SQLAlchemy>=2.0
+yfinance>=0.2.40
+pandas>=2.2
+streamlit>=1.50  # width="stretch" in st.dataframe
+
+# Phase 2 — information layer
+requests>=2.31
+APScheduler>=3.10
+python-dotenv>=1.0
+
+# Phase 4 — analytics & Claude layer
+numpy>=1.26
+anthropic>=0.40
+matplotlib>=3.8  # pandas Styler.background_gradient (correlation heatmap)
+
+# Dev / test
+pytest>=8.0
